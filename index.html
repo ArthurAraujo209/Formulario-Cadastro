@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário IFRN</h1>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="dev.html">Desenvolvedores</a>
+            <a href="./server/server.php">Fórmulário</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <div class="form-image">
+                <img src="./img/undraw_shopping_re_hdd9.svg" alt="">
+            </div>
+            <div class="form">
+                <form action="./server/server.php" method="post">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        <div class="login-button">
+                            <input type="reset">
+                        </div>
+                    </div>
+                        <div class="input-group">
+                            <div class="input-box">
+                                <label for="name">Nome</label>
+                                <input id="name" type="text" name="name" placeholder="Digite seu nome" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="email">Email</label>
+                                <input id="email" type="email" name="email" placeholder="Digite seu email" >
+                            </div>
+                            <div class="input-box">
+                                <label for="numero">Número</label>
+                                <input id="numero" type="tel" name="numero" placeholder="(xx) xxxxx-xxxx" >
+                            </div>
+                            <div class="input-box">
+                                <label for="data">Data de nascimento</label>
+                                <input id="data" type="date" name="data" placeholder="Digite sua data de nascimento" >
+                            </div>
+                            <div class="input-box">
+                                <label for="password">Senha</label>
+                                <input id="password" type="password" name="password" placeholder="Digite sua senha" >
+                            </div>
+                            <div class="input-box perfil">
+                                <label for="perfil">Foto de perfil</label>
+                                <input id="perfil" type="file" name="perfil">
+                            </div>
+                            <div class="input-box">
+                                <label for="color">Cor Favorita</label>
+                                <input id="color" type="color" name="color">
+                            </div>
+                            <div class="input-box">
+                                <label for="ident">Identificação</label>
+                                <input id="ident" type="number" name="ident" placeholder="Coloque sua Identificação" >
+                            </div>
+                        </div>
+                        <div class="gender-inputs">
+                            <div class="gender-title">
+                                <h6>Gênero</h6>
+                            </div>
+                            <div class="gender-group">
+                                <div class="gender-input">
+                                    <input type="radio" id="female" name="gender">
+                                    <label for="female">Feminino</label>
+                                </div>
+                                <div class="gender-input">
+                                    <input type="radio" id="male" name="gender">
+                                    <label for="male">Masculino</label>
+                                </div>
+                                <div class="gender-input">
+                                    <input type="radio" id="others" name="gender">
+                                    <label for="others">Outros</label>
+                                </div>
+                                <div class="gender-input">
+                                    <input type="radio" id="none" name="gender">
+                                    <label for="none">Prefiro não dizer</label>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="continue-button">
+                        <input type="submit"></input>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="titulo-footer">
+        <h3>IFRN campus Santa Cruz - Trabalho de Autoria Web</h3> <span class="material-symbols-outlined"> arrow_drop_down </span>
+        </div>
+        <h3>Prof. Marcelo Figueiredo Barbosa Júnior</h3>
+        <div class="desenvolvedores">
+            <h2>Devs</h2> <span class="material-symbols-outlined"> arrow_drop_down </span>
+        </div>
+        <h3>Arthur Lima Araújo</h3>
+        <h3>Felipe Ângelo</h3>
+        <h3>Victor Henrrique</h3>
+    </footer>
+</body>
+</html>

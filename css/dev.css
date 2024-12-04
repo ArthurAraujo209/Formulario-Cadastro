@@ -1,0 +1,108 @@
+.container{
+    border-radius: 10px;
+
+    background-color: #fde3a7d7;
+}
+
+.container h1, h2, h3{
+    
+    margin-left: 0px;
+}
+.devs{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteudo h1{
+    margin-right: 200px;
+}
+.apresentacao{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.apresentacao img{
+    width: 496px;
+}
+
+.login-button{
+    background-color: #6c63ff;
+    border-radius: 10px;
+}
+.login-button a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.login-button:hover{
+    background-color: #6b63fff1;
+}
+.form-header{
+    margin-left: 0px;
+}
+
+.form-conteudo img{
+    width: 100px;
+    border-radius: 50%;
+
+}
+.form-conteudo{
+    margin-left: 10px;
+}
+
+.programador::after{
+    content: '';
+    display: block;
+    width: 10rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.desing::after{
+    content: '';
+    display: block;
+    width: 5.5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.auxiliar::after{
+    content: '';
+    display: block;
+    width: 6rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.form-conteudo h2{
+    margin-bottom: 15px;
+}
+
+.cartao-dev{
+    display: flex;
+    align-items: center;
+}
+.cartao-dev h3{
+    margin-left: 10px;
+}
