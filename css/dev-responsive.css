@@ -1,0 +1,11 @@
+@media screen and (max-width: 1293px) {
+    .apresentacao img{
+        display: none;
+    }
+    .apresentacao{
+        background-color: #ffffff;
+    }
+    .login-button{
+        display: none;
+    }
+}
